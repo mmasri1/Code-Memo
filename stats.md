@@ -1,6 +1,7 @@
 📅 Starting Date: 2025-06-07
 
-Applications Sent: 2
+Applications Sent: 3
 Interviews Scheduled: 2
-Technical Interviews: 0
+Rejections: 1
+Technical Interviews: 1
 Offers Received: 0
