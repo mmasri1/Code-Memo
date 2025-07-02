@@ -158,3 +158,24 @@ Authorization determines what actions an authenticated user is allowed to perfor
 ##### HTTP vs HTTPS
 
 HTTP is the HyperText Transfer Protocol used for unsecured communication over the web, while HTTPS is HTTP Secure which adds encryption via TLS/SSL to ensure data confidentiality, integrity, and authentication between client and server.
+
+#### SLA Levels
+
+| SLA %       | Max Downtime/Year   | Typical Use Case                             | Considered Good? |
+| ----------- | ------------------- | -------------------------------------------- | ---------------- |
+| **99.9%**   | \~8.76 hours/year   | Mid-tier apps, internal tools                | Decent           |
+| **99.95%**  | \~4.38 hours/year   | SaaS apps, e-commerce                        | Good             |
+| **99.99%**  | \~52.6 minutes/year | High-availability systems (APIs, DBs)        | **Very Good**    |
+| **99.999%** | \~5.26 minutes/year | Mission-critical (finance, healthcare)       | **Excellent**    |
+| **100%**    | 0 minutes/year      | Unrealistic in practice (no one offers this) | ❌ Not realistic  |
+
+#### What's *Generally* Considered Good?
+
+* **99.9%** is the bare minimum for most production-level software.
+* **99.99%** is expected for most cloud services (AWS, Google Cloud, Azure).
+* **99.999% ("five nines")** is considered "enterprise-grade" and used in critical systems.
+
+#### Throttling vs Rate limiting
+
+Throttling: Gradually slows down user requests to control traffic flow.
+Rate limiting: Strictly caps the number of user requests allowed in a time window.
