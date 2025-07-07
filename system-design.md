@@ -1,15 +1,18 @@
 notes:
-- list of questions to ask the interviewer with the answers
-- add non-func req like number of users, avg size of vid/tweet (1kb), how much GB per day, ratio of upload/watch (R/W), amount of reads per day
-- storage type: object / db / file system
-- db pick: do we need joins? -> relational db
+- avg size of vid/tweet (1kb), how much GB per day, ratio of upload/watch (R/W), amount of reads per day
 
-1. Step 1: Requirements Gathering:
-- Functional Requirements
-- Non-Functional Requirements
-2. Step 2: High-Level Architecture
-3. Step 3: Database Design (Simplified)
-4. Step 4: Scaling and Performance
+STEP 1: CLARIFY THE PROBLEM
+STEP 2: Define Functional Requirements
+STEP 3: Define Non-Functional Requirements (NFRs)
+STEP 4: Define System Interfaces / APIs
+STEP 5: High-Level Architecture
+STEP 6: Database Design & Schema (ERD)
+STEP 7: Component Design (Low-Level Design)
+STEP 8: Scaling & Optimization
+STEP 9: Security & Privacy Considerations
+STEP 10: Monitoring, Logging & Alerting
+STEP 11: Cost & Infrastructure Planning
+STEP 12: Testing & Deployment Strategies
 
 <br>
 
@@ -30,6 +33,21 @@ System design is the art of figuring out how to build software that works well a
 <br>
 
 #### Core Social Platforms
+
+
+| #  | System                   | Why Focus? Key Concepts Covered                                              |
+| -- | ------------------------ | ---------------------------------------------------------------------------- |
+| 1  | [Facebook](/systemdesign/facebook.md)             | Graph DB, News Feed, caching, massive fan-out, social graph, complex feeds   |
+| 2  | [Twitter](/systemdesign/twitter.md)             | Real-time feed, timeline fan-out, rate limiting, streaming updates           |
+| 3  | WhatsApp             | Messaging: end-to-end encryption, offline delivery, message queues           |
+| 4  | Uber                 | Geo-location, live tracking, trip matching, surge pricing, real-time systems |
+| 5  | YouTube              | Media streaming, CDN, recommendation system, video encoding                  |
+| 6  | Amazon               | E-commerce: catalog, search, recommendations, cart, large-scale ops          |
+| 7  | GitHub               | Developer tools: version control, PRs, code storage, collaboration           |
+| 8  | Google Search        | Search system: crawling, indexing, ranking, autocomplete                     |
+| 9  | Netflix              | Advanced media streaming: adaptive bitrate, caching, A/B testing             |
+| 10 | Kafka (Queue System) | Infrastructure: messaging queue, pub/sub, partitioning, durability           |
+
 
 | System        | Concepts Covered                                     |
 | ------------- | ---------------------------------------------------- |
