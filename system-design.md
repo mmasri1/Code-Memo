@@ -28,6 +28,8 @@ System design is the art of figuring out how to build software that works well a
 
 <br>
 
+### [My Massive System](/systemdesign/mymassivesystem.md)
+
 ### 🚀 Designing Real World Systems
 
 <br>
@@ -39,14 +41,14 @@ System design is the art of figuring out how to build software that works well a
 | -- | ------------------------ | ---------------------------------------------------------------------------- |
 | 1  | [Facebook](/systemdesign/facebook.md)             | Graph DB, News Feed, caching, massive fan-out, social graph, complex feeds   |
 | 2  | [Twitter](/systemdesign/twitter.md)             | Real-time feed, timeline fan-out, rate limiting, streaming updates           |
-| 3  | WhatsApp             | Messaging: end-to-end encryption, offline delivery, message queues           |
-| 4  | Uber                 | Geo-location, live tracking, trip matching, surge pricing, real-time systems |
-| 5  | YouTube              | Media streaming, CDN, recommendation system, video encoding                  |
-| 6  | Amazon               | E-commerce: catalog, search, recommendations, cart, large-scale ops          |
-| 7  | GitHub               | Developer tools: version control, PRs, code storage, collaboration           |
-| 8  | Google Search        | Search system: crawling, indexing, ranking, autocomplete                     |
-| 9  | Netflix              | Advanced media streaming: adaptive bitrate, caching, A/B testing             |
-| 10 | Kafka (Queue System) | Infrastructure: messaging queue, pub/sub, partitioning, durability           |
+| 3  | [WhatsApp](/systemdesign/whatsapp.md)             | Messaging: end-to-end encryption, offline delivery, message queues           |
+| 4  | [Uber](/systemdesign/uber.md)                 | Geo-location, live tracking, trip matching, surge pricing, real-time systems |
+| 5  | [YouTube](/systemdesign/youtube.md)              | Media streaming, CDN, recommendation system, video encoding                  |
+| 6  | [Amazon](/systemdesign/amazon.md)               | E-commerce: catalog, search, recommendations, cart, large-scale ops          |
+| 7  | [GitHub](systemdesign/github.md)               | Developer tools: version control, PRs, code storage, collaboration           |
+| 8  | [Google Search](/systemdesign/googlesearch.md)        | Search system: crawling, indexing, ranking, autocomplete                     |
+| 9  | [Netflix](/systemdesign/netflix.md)              | Advanced media streaming: adaptive bitrate, caching, A/B testing             |
+| 10 | [Kafka (Queue System)](/systemdesign/kafka.md) | Infrastructure: messaging queue, pub/sub, partitioning, durability           |
 
 
 | System        | Concepts Covered                                     |
