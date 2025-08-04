@@ -13,3 +13,7 @@ Effective debugging is one of the most important skills for any developer. It in
 5. Verify with Test Cases: Update unit tests to cover the problematic code. Running tests can help verify that the issue is fixed and that no new issues are introduced.
 
 6. Document the Solution: Once the issue is resolved, document the problem, the solution, and any changes made.
+
+### A/B Testing
+
+If YouTube wanted to introduce a small new feature, they could use A/B testing by displaying it to only a portion of their users and then tracking how those users respond.
