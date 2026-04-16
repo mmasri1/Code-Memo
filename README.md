@@ -9,8 +9,9 @@ Welcome to my [Code Memo](https://mmasri1.github.io/Code-Memo/)! I forget a lot!
 3. [Django and Django REST Framework (DRF)](/django.md)
 4. [Software Engineering Principles](/sep.md)
 5. [System Design and Architecture](/system-design.md)
-6. API Design ⏳
-7. [Misc](/misc.md)
+6. [AWS](/aws/index.md)
+7. API Design ⏳
+8. [Misc](/misc.md)
 
 Note: This project is a bunch of personal notes. While you may find them useful, it's intended more as a quick reference rather than a learning resource, ideal for a brief review 5 minutes before your next interview :D
 
@@ -18,4 +19,4 @@ Feel free to explore each section and make use of the information as needed. If 
 
 And don't forget to take notes! ❤️
 
-Version: 3.2.4
+Version: 3.2.5
