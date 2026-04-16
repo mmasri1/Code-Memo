@@ -3,7 +3,7 @@
 Django is a powerful web framework, but its async support is still a work in progress. Some parts play well with async, others don’t (ORM, serializers, middleware). Django Async Framework aims to fill in those gaps by giving a fully async-first way to build with Django.
 
 <p>
-  <a href="https://github.com/mouhamaddev/django-async-framework" style="text-decoration:none;">
+  <a href="https://github.com/mmasri1/django-async-framework" style="text-decoration:none;">
     <button style="padding:10px 15px; font-size:14px; color:white; background-color:#007BFF; border:none; border-radius:5px; cursor:pointer;">
       Check it out on GitHub &nbsp; 🔗
     </button>

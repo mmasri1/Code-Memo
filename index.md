@@ -126,7 +126,7 @@ also about contributing to cpython
 
 #### Code Memo
 
-Welcome to my [Code Memo](https://mouhamaddev.github.io/Code-Memo/)! I forget a lot! So I created this simple project, which is a collection of my notes on various programming topics, including Python, Django, Django REST Framework (DRF), algorithms and data structures (maybe some leetcode problems), and Linux. This serves as my personal reference to help me recall concepts quickly. I hope you find it useful as well.
+Welcome to my [Code Memo](https://mmasri1.github.io/Code-Memo/)! I forget a lot! So I created this simple project, which is a collection of my notes on various programming topics, including Python, Django, Django REST Framework (DRF), algorithms and data structures (maybe some leetcode problems), and Linux. This serves as my personal reference to help me recall concepts quickly. I hope you find it useful as well.
 
 ## Table of Contents
 
@@ -177,4 +177,4 @@ Feel free to explore each section and make use of the information as needed. If 
 
 And don't forget to take notes! ❤️
 
-Version: 3.2.1
+Version: 3.2.2

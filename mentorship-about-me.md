@@ -24,7 +24,7 @@ I'm currently seeking mentorship because I believe it's one of the most effectiv
 
 Also would be great to have feedback in:
 
-1. Profiles ([GitHub](https://github.com/mouhamaddev/), [LinkedIn](https://www.linkedin.com/in/mouhamaddev/)..).
-2. My [Resume](https://mouhamaddev.github.io/mouhamaddev/).
-3. [Django async framework](https://github.com/mouhamaddev/django-async-framework) (Python library)
-4. Personal knowledge base: [Code Memo](https://mouhamaddev.github.io/Code-Memo/).
+1. Profiles ([GitHub](https://github.com/mmasri1/), [LinkedIn](https://www.linkedin.com/in/mmasri1/)..).
+2. My [Resume](https://mmasri1.github.io/mmasri1/).
+3. [Django async framework](https://github.com/mmasri1/django-async-framework) (Python library)
+4. Personal knowledge base: [Code Memo](https://mmasri1.github.io/Code-Memo/).
