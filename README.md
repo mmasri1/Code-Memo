@@ -11,8 +11,6 @@ Welcome to my [Code Memo](https://mmasri1.github.io/Code-Memo/)! I forget a lot!
 5. [System Design and Architecture](/system-design.md)
 6. API Design ⏳
 7. [Misc](/misc.md)
-8. [Mentorship Notes](/mentorship-notes.md)
-9. [Today I Learned - DAF 🔥](/daf-today-i-learned.md)
 
 Note: This project is a bunch of personal notes. While you may find them useful, it's intended more as a quick reference rather than a learning resource, ideal for a brief review 5 minutes before your next interview :D
 
@@ -20,4 +18,4 @@ Feel free to explore each section and make use of the information as needed. If 
 
 And don't forget to take notes! ❤️
 
-Version: 3.2.3
+Version: 3.2.4
