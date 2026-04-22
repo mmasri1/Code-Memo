@@ -19,4 +19,4 @@ Feel free to explore each section and make use of the information as needed. If 
 
 And don't forget to take notes! ❤️
 
-Version: 3.2.6
+Version: 3.2.7
