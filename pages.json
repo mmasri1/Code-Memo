@@ -160,7 +160,7 @@
     "misc/htaccess-reverse-proxy.md",
     "misc/load-balancing-in-nginx.md",
     "misc/make-user-always-admin-ubuntu.md",
-    "misc/nginx-413.md.md",
+    "misc/nginx-413.md",
     "misc/py-current-directory.md",
     "misc/py-insecurerequirestwarning.md",
     "misc/readme-template.md",

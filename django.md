@@ -14,86 +14,86 @@ With around [10](https://www.django-rest-framework.org/api-guide/viewsets/#model
 
 ## Introduction
 
-1. [Setting Up a Django Project](django/project-sample.md)
-2. [Apps and Project Structure](django/apps-and-project-structure.md)
-3. [Django Admin Interface](django/admin-interface.md)
-4. [URL Routing and Configuration](django/url-routing-and-configuration.md)
+1. [Setting Up a Django Project](django/project-sample)
+2. [Apps and Project Structure](django/apps-and-project-structure)
+3. [Django Admin Interface](django/admin-interface)
+4. [URL Routing and Configuration](django/url-routing-and-configuration)
 
 ### Models
 
-1. [Defining Models](django/defining-models.md)
-2. [Model Fields](django/model-fields.md)
-3. [Model Methods](django/model-methods.md)
-4. [Model Meta Options](django/model-meta-options.md)
-5. [Model Inheritance](django/model-inheritance.md)
-6. [Model Migrations](django/model-migrations.md)
-7. [Relationships (OneToOne, ManyToMany, ForeignKey)](django/relationships.md)
+1. [Defining Models](django/defining-models)
+2. [Model Fields](django/model-fields)
+3. [Model Methods](django/model-methods)
+4. [Model Meta Options](django/model-meta-options)
+5. [Model Inheritance](django/model-inheritance)
+6. [Model Migrations](django/model-migrations)
+7. [Relationships (OneToOne, ManyToMany, ForeignKey)](django/relationships)
 
 ### Queries
 
-1. [Creating Queries](django/creating-queries.md)
-2. [QuerySets](django/querysets.md)
-3. [Field Lookups](django/field-lookups.md)
-4. [Query Expressions](django/query-expressions.md)
-5. [Complex Lookups](django/complex-lookups.md)
-6. [Aggregation and Annotation](django/aggregation-annotation.md)
+1. [Creating Queries](django/creating-queries)
+2. [QuerySets](django/querysets)
+3. [Field Lookups](django/field-lookups)
+4. [Query Expressions](django/query-expressions)
+5. [Complex Lookups](django/complex-lookups)
+6. [Aggregation and Annotation](django/aggregation-annotation)
 
 ### Views
 
-1. [Function-Based Views (FBVs)](django/fbvs.md)
-2. [Class-Based Views (CBVs)](django/cbvs.md)
-3. [Generic Views](django/generic-views.md)
-4. [Mixins](django/mixins.md)
-5. [Handling Requests and Responses](django/requests-responses.md)
+1. [Function-Based Views (FBVs)](django/fbvs)
+2. [Class-Based Views (CBVs)](django/cbvs)
+3. [Generic Views](django/generic-views)
+4. [Mixins](django/mixins)
+5. [Handling Requests and Responses](django/requests-responses)
 
 ### Authentication
 
-1. [User Authentication and Authorization](django/user-authentication-and-authorization.md)
-2. [Password Management](django/password-management.md)
-5. [User Registration](django/user-registration.md)
-6. [Permissions and Groups](django/permissions-and-groups.md)
+1. [User Authentication and Authorization](django/user-authentication-and-authorization)
+2. [Password Management](django/password-management)
+5. [User Registration](django/user-registration)
+6. [Permissions and Groups](django/permissions-and-groups)
 
 ### Middleware
 
-1. [Understanding Middleware](django/understanding-middleware.md)
-2. [Built-in Middleware](django/built-in-middleware.md)
-3. [Custom Middleware](django/custom-middleware.md)
+1. [Understanding Middleware](django/understanding-middleware)
+2. [Built-in Middleware](django/built-in-middleware)
+3. [Custom Middleware](django/custom-middleware)
 
 ### Advanced Topics
 
-1. [Signals](django/signals.md)
-2. [Caching](django/caching.md)
-3. [Sessions](django/sessions.md)
-4. [Environment Variables and Secret Keys](django/environment-variables-and-secret-keys.md)
-5. [Internationalization and Localization](django/internationalization-and-localization.md)
-6. [Management Commands](django/management-commands.md)
-7. [Asynchronous Views](django/asynchronous-views.md)
-8. [Working with Databases (Other than SQLite)](django/working-with-databases.md)
-9. [Custom User Models](django/custom-user-models.md)
-10. [Security Best Practices](django/security-best-practices.md)
+1. [Signals](django/signals)
+2. [Caching](django/caching)
+3. [Sessions](django/sessions)
+4. [Environment Variables and Secret Keys](django/environment-variables-and-secret-keys)
+5. [Internationalization and Localization](django/internationalization-and-localization)
+6. [Management Commands](django/management-commands)
+7. [Asynchronous Views](django/asynchronous-views)
+8. [Working with Databases (Other than SQLite)](django/working-with-databases)
+9. [Custom User Models](django/custom-user-models)
+10. [Security Best Practices](django/security-best-practices)
 
 ### Testing
 
-1. [Writing and Running Tests](django/writing-and-running-tests.md)
-2. [Testing Tools and Libraries](django/testing-tools-and-libraries.md)
-3. [Testing Models, Views, and Forms](django/testing-models-views-forms.md)
-4. [Using the Django Test Client](django/using-django-test-client.md)
+1. [Writing and Running Tests](django/writing-and-running-tests)
+2. [Testing Tools and Libraries](django/testing-tools-and-libraries)
+3. [Testing Models, Views, and Forms](django/testing-models-views-forms)
+4. [Using the Django Test Client](django/using-django-test-client)
 
 ### Deployment
 
-1. [Deployment Checklist](django/deployment-checklist.md)
-2. [Deploying with WSGI](django/deploying-with-wsgi.md)
-3. [Deploying to AWS (Elastic Beanstalk, EC2)](django/deploying-to-aws.md)
-4. [Using Docker with Django](django/docker-with-django.md)
-5. [Setting Up CI/CD](django/setting-up-cicd.md)
+1. [Deployment Checklist](django/deployment-checklist)
+2. [Deploying with WSGI](django/deploying-with-wsgi)
+3. [Deploying to AWS (Elastic Beanstalk, EC2)](django/deploying-to-aws)
+4. [Using Docker with Django](django/docker-with-django)
+5. [Setting Up CI/CD](django/setting-up-cicd)
 
 ### Performance Optimization
 
-1. [N+1 Query Problem](django/n+1-query-problem.md)
-2. [Query Optimization](django/query-optimization.md)
-3. [Using Django Debug Toolbar](django/using-django-debug-toolbar.md)
-4. [Database Indexing](django/database-indexing.md)
-5. [Profiling and Monitoring](django/profiling-and-monitoring.md)
+1. [N+1 Query Problem](django/n+1-query-problem)
+2. [Query Optimization](django/query-optimization)
+3. [Using Django Debug Toolbar](django/using-django-debug-toolbar)
+4. [Database Indexing](django/database-indexing)
+5. [Profiling and Monitoring](django/profiling-and-monitoring)
 
 ### Best Practices
 
@@ -105,21 +105,21 @@ With around [10](https://www.django-rest-framework.org/api-guide/viewsets/#model
 
 # Django Rest Framework (DRF)
 
-[Why DRF ?? 💡](django/why-drf.md)
+[Why DRF ?? 💡](django/why-drf)
 
 #### DRF Basics
 
-1. [Creating a Simple API](django/creating-a-aimple-api.md)
-2. [Requests](django/requests.md)
-3. [Responses](django/responses.md)
+1. [Creating a Simple API](django/creating-a-aimple-api)
+2. [Requests](django/requests)
+3. [Responses](django/responses)
 
 #### Views
 
 1. Function-Based Views (FBVs) in DRF
 2. Class-Based Views (CBVs) in DRF
 3. ViewSets and Routers
-4. [API Views](django/apiview.md)
-5. [Generic Views](django/generic-view.md)
+4. [API Views](django/apiview)
+5. [Generic Views](django/generic-view)
 6. Mixins
 
 #### Serializers
@@ -146,7 +146,7 @@ With around [10](https://www.django-rest-framework.org/api-guide/viewsets/#model
 5. Custom Authentication
 6. Permission Classes
 7. Object-Level Permissions
-8. [Custom Permissions and Roles](django/custom-permissions-and-roles.md)
+8. [Custom Permissions and Roles](django/custom-permissions-and-roles)
 
 #### Throttling
 
@@ -199,7 +199,7 @@ With around [10](https://www.django-rest-framework.org/api-guide/viewsets/#model
 
 #### Misc
 
-1. [Uploading Images](drf/uploading-images.md)
+1. [Uploading Images](drf/uploading-images)
 
 #### Best Practices
 
