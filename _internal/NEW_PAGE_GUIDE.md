@@ -55,13 +55,13 @@ Keep names descriptive and stable (don’t rename unless necessary).
 
 Most pages link like this:
 
-- Use **root-relative links** starting with `/`.
+- Use **relative links** (no leading `/`).
 - Link to the `.md` file path.
 
 Examples:
 
-- `[QuerySets](/django/querysets.md)`
-- `[Topic 1](/python/topic-1.md)`
+- `[QuerySets](django/querysets.md)`
+- `[Topic 1](python/topic-1.md)`
 
 Do **not** link to generated `.html` paths; GitHub Pages/Jekyll will handle rendering.
 
@@ -185,7 +185,7 @@ When asked write about topic X for this repo, follow this checklist:
 
 1. Put the page in the **right folder** and name it with **kebab-case**.
 2. Use the **template structure** above.
-3. Use **root-relative links** like `/django/foo.md` when referencing other notes.
+3. Use **relative links** like `django/foo.md` when referencing other notes.
 4. Keep it **scan-first**: short sections, bullets, minimal examples.
 5. Don’t add this guide to any index pages.
 

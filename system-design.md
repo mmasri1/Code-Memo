@@ -24,11 +24,11 @@ System design is the art of figuring out how to build software that works well a
 
 ##### System Design Concepts
 
-1. [Main Concepts](/systemdesign/system-design-concepts.md)
+1. [Main Concepts](systemdesign/system-design-concepts.md)
 
 <br>
 
-### [My Massive System](/systemdesign/mymassivesystem.md)
+### [My Massive System](systemdesign/mymassivesystem.md)
 
 ### 🚀 Designing Real World Systems
 
@@ -39,21 +39,21 @@ System design is the art of figuring out how to build software that works well a
 
 | #  | System                   | Why Focus? Key Concepts Covered                                              |
 | -- | ------------------------ | ---------------------------------------------------------------------------- |
-| 1  | [Facebook](/systemdesign/facebook.md)             | Graph DB, News Feed, caching, massive fan-out, social graph, complex feeds   |
-| 2  | [Twitter](/systemdesign/twitter.md)             | Real-time feed, timeline fan-out, rate limiting, streaming updates           |
-| 3  | [WhatsApp](/systemdesign/whatsapp.md)             | Messaging: end-to-end encryption, offline delivery, message queues           |
-| 4  | [Uber](/systemdesign/uber.md)                 | Geo-location, live tracking, trip matching, surge pricing, real-time systems |
-| 5  | [YouTube](/systemdesign/youtube.md)              | Media streaming, CDN, recommendation system, video encoding                  |
-| 6  | [Amazon](/systemdesign/amazon.md)               | E-commerce: catalog, search, recommendations, cart, large-scale ops          |
+| 1  | [Facebook](systemdesign/facebook.md)             | Graph DB, News Feed, caching, massive fan-out, social graph, complex feeds   |
+| 2  | [Twitter](systemdesign/twitter.md)             | Real-time feed, timeline fan-out, rate limiting, streaming updates           |
+| 3  | [WhatsApp](systemdesign/whatsapp.md)             | Messaging: end-to-end encryption, offline delivery, message queues           |
+| 4  | [Uber](systemdesign/uber.md)                 | Geo-location, live tracking, trip matching, surge pricing, real-time systems |
+| 5  | [YouTube](systemdesign/youtube.md)              | Media streaming, CDN, recommendation system, video encoding                  |
+| 6  | [Amazon](systemdesign/amazon.md)               | E-commerce: catalog, search, recommendations, cart, large-scale ops          |
 | 7  | [GitHub](systemdesign/github.md)               | Developer tools: version control, PRs, code storage, collaboration           |
-| 8  | [Google Search](/systemdesign/googlesearch.md)        | Search system: crawling, indexing, ranking, autocomplete                     |
-| 9  | [Netflix](/systemdesign/netflix.md)              | Advanced media streaming: adaptive bitrate, caching, A/B testing             |
-| 10 | [Kafka (Queue System)](/systemdesign/kafka.md) | Infrastructure: messaging queue, pub/sub, partitioning, durability           |
+| 8  | [Google Search](systemdesign/googlesearch.md)        | Search system: crawling, indexing, ranking, autocomplete                     |
+| 9  | [Netflix](systemdesign/netflix.md)              | Advanced media streaming: adaptive bitrate, caching, A/B testing             |
+| 10 | [Kafka (Queue System)](systemdesign/kafka.md) | Infrastructure: messaging queue, pub/sub, partitioning, durability           |
 
 
 | System        | Concepts Covered                                     |
 | ------------- | ---------------------------------------------------- |
-| [Facebook](/systemdesign/facebook.md)  | News Feed, Graph DB, caching, massive fan-out        |
+| [Facebook](systemdesign/facebook.md)  | News Feed, Graph DB, caching, massive fan-out        |
 | Instagram | Media storage, user-generated content, notifications |
 | Twitter   | Timeline fan-out, real-time feed, rate limiting      |
 | LinkedIn  | Search, connections, job recommendation, analytics   |
