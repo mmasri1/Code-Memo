@@ -8,4 +8,4 @@ It’s now: automation + security + cost + observability
 3. [Scaling environments on AWS](/aws/scaling-environments.md)
 4. [AWS pricing comparisons](/aws/pricing-comparison.md)
 5. [Amazon RDS](/aws/rds.md)
-6. [AWS misc notes](/aws/misc/index.md)
+6. [AWS misc notes](/aws/misc/misc.md)
