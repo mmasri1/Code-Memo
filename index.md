@@ -47,7 +47,6 @@ title: Code-Memo
       cta.style.display = "";
       note.parentNode.insertBefore(cta, note);
     } else {
-      // Fallback: show it at the top if note paragraph isn't found
       cta.style.display = "";
     }
   })();

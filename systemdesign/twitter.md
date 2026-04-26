@@ -166,7 +166,7 @@ Twitter is a microblogging and social networking platform focused on short messa
   * Ranked based on relevance/engagement (algorithmic feed)
 * Timeline supports infinite scrolling / pagination.
 * Timeline updates with new tweets in near real-time.
-* Users can switch to “Latest Tweets” or “Home” view.
+* Users can switch to Latest Tweets or Home view.
 * Users can view individual tweet details and threads.
 * Support filtering options:
 

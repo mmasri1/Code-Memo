@@ -66,7 +66,7 @@ Authentication is the process of verifying the identity of a user or system. Aut
 
 - Username + Password
 - MFA (Multi-Factor Authentication) (e.g., SMS, authentication app).
-- OAuth2: An open standard for token-based authentication that allows third-party applications to access user data without exposing credentials, example: “Continue with Google” button.
+- OAuth2: An open standard for token-based authentication that allows third-party applications to access user data without exposing credentials, example: Continue with Google button.
 - Single Sign-On (SSO): Instead of creating a new account on each site, you get one shared account, example: Google, Gmail, YouTube..
 
 <br>

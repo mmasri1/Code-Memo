@@ -393,7 +393,7 @@ These are not exposed to the frontend but help for **internal service-to-service
 
 ## ✅ STEP 5: High-Level Architecture
 
-> “High-level” means we are not yet choosing specific tools, but rather defining **the main components**, **their responsibilities**, and how data and requests **flow** across the system.
+> High-level means we are not yet choosing specific tools, but rather defining **the main components**, **their responsibilities**, and how data and requests **flow** across the system.
 
 ### Core Components
 
@@ -997,7 +997,7 @@ Prevent abuse and overload:
 
 ### 8.7 Hot Key Mitigation
 
-* Popular posts or users can create “hot keys” that overload DB/cache
+* Popular posts or users can create hot keys that overload DB/cache
 * Mitigations:
 
   * Use multi-level caches (L1 in-memory, L2 distributed)

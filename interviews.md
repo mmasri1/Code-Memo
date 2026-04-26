@@ -46,10 +46,10 @@ What are you most proud of professionally?
 > Professionally, I’m most proud of owning and scaling backend systems that directly support complex workflows and improve user experience. At AGParts Worldwide, I maintained and enhanced a management system used by technicians. I was trusted to take ownership of critical components and successfully delivering improvements that help the team work more efficiently is something I take great pride in.
 
 What’s your favorite tech stack and why?
-> My favorite tech stack Python with Django and Django REST Framework for backend development. I like it because it has a great balance between productivity and scalability. Django’s “batteries included” philosophy gives a solid and secure foundation out of the box which helps build clean, maintainable APIs quickly. Coupled with PostgreSQL for a reliable relational database and Docker for consistent deployments.
+> My favorite tech stack Python with Django and Django REST Framework for backend development. I like it because it has a great balance between productivity and scalability. Django’s batteries included philosophy gives a solid and secure foundation out of the box which helps build clean, maintainable APIs quickly. Coupled with PostgreSQL for a reliable relational database and Docker for consistent deployments.
 
 What are you working on right now (personal projects)?
-> Right now, I’m working on a couple of personal projects to deepen my skills, One is called “code-memo” where I write personal notes about every litte detail i learn, including topics like python, django, software engineering and architecture, and im working on rewriting Django documentation in my own words. I’m also developing DAF, an open-source asynchronous framework built on top of Django to make async programming easier and more accessible in Django projects.
+> Right now, I’m working on a couple of personal projects to deepen my skills, One is called code-memo where I write personal notes about every litte detail i learn, including topics like python, django, software engineering and architecture, and im working on rewriting Django documentation in my own words. I’m also developing DAF, an open-source asynchronous framework built on top of Django to make async programming easier and more accessible in Django projects.
 
 Any person you like?
 > One person I really admire is Tom Christie. He’s been a major inspiration to me, especially because of his work on the Django REST Framework, which has fundamentally changed how APIs are built in the Django community.
@@ -134,7 +134,7 @@ Tell me about a time you improved performance.
 > A list endpoint took 2–3 seconds to load. I added .select_related() and .prefetch_related(), cut it down to 300ms. Then I added caching for anonymous users and added query count alerts in CI. Response time dropped by 90%, and no one ever complained about slowness again.
 
 Tell me about a time you received difficult feedback.
-> In a past job, a manager told me my PRs were too “clever” — hard to understand for juniors. I took that seriously. I started writing more readable code, added comments, and even wrote a small PR checklist for our team. That feedback made me a better mentor and reviewer.
+> In a past job, a manager told me my PRs were too clever — hard to understand for juniors. I took that seriously. I started writing more readable code, added comments, and even wrote a small PR checklist for our team. That feedback made me a better mentor and reviewer.
 
 Tell me about a time when you had to learn something quickly.
 > We had to integrate Redis streams for async processing — I hadn’t used them before. I spent one night reading the docs and testing locally, then built a proof of concept the next morning. It worked — we used it for production, and I taught the team how to use it.
@@ -217,7 +217,7 @@ Do you have experience with background tasks / queues?
 > Yes, I’ve used Celery with Redis/RabbitMQ for tasks like sending emails, processing files, and syncing external APIs.
 
 Have you worked with Docker, Kubernetes, or containerization?
-> I use Docker daily for local dev and production builds. I’ve written Dockerfiles, docker-compose setups, and created custom images. For Kubernetes: “I have basic knowledge of deploying services.
+> I use Docker daily for local dev and production builds. I’ve written Dockerfiles, docker-compose setups, and created custom images. For Kubernetes: I have basic knowledge of deploying services.
 
 What’s your familiarity with caching (e.g., Redis)?
 > Redis for in-memory caching, rate limiting, storing sessions, or pub/sub.
@@ -232,7 +232,7 @@ How would you prepare for a traffic spike?
 > Add horizontal scalability (load balancer + replicas). Add caching layer (Redis/CDN). Ensure DB indexing. Use async/background workers. Rate limiting.
 
 What’s your approach to debugging tricky bugs?
-> Reproduce locally with test cases. Use logs with proper levels. Use print() or pdb for debugging. Add metrics/logs to isolate the issue in prod. Ask: “What changed recently?”
+> Reproduce locally with test cases. Use logs with proper levels. Use print() or pdb for debugging. Add metrics/logs to isolate the issue in prod. Ask: What changed recently?
 
 What’s your process for breaking down a new feature?
 > Understand requirements from the user’s POV. Break down into backend + frontend tasks. Plan models, APIs, validations, tests. Document API contracts and flows. Ship MVP first, then iterate.
@@ -256,7 +256,7 @@ How do you onboard 4 junior devs fast?
 > I keep onboarding extremely simple and hands-on: Docs: I write a one-pager README with setup instructions (Docker Compose, .env, sample API call). Onboarding Task: I give each one a low-risk, isolated ticket — like building a single API endpoint or fixing an HTML layout. Code Review: I do tight code reviews for the first 1–2 weeks to teach quality standards. Mentorship: I group them in pairs ("buddy system") and ask them to post blockers in a shared Slack channel. Daily Sync: First week I do short daily check-ins to unblock and keep things moving. Juniors learn best by doing — not reading 100 pages of docs.
 
 What would you automate early to save time?
-> Linting & formatting in CI — no wasted PR comments on style. Backend API tests — even if basic, helps prevent breakage. API docs generation (Swagger/OpenAPI). Basic error alerting (e.g., Sentry, email alerts). One-click local setup via Docker Compose or Makefile. Database migrations in CI/CD — never do them manually. Automation should protect developer focus — I aim to avoid repetitive Slack questions like “how do I run X?”.
+> Linting & formatting in CI — no wasted PR comments on style. Backend API tests — even if basic, helps prevent breakage. API docs generation (Swagger/OpenAPI). Basic error alerting (e.g., Sentry, email alerts). One-click local setup via Docker Compose or Makefile. Database migrations in CI/CD — never do them manually. Automation should protect developer focus — I aim to avoid repetitive Slack questions like how do I run X?.
 
 How would you structure the project from day one?
 > I’d use domain-driven folder structure: users/, orders/, auth/, etc. (each with its own models, serializers, tests, views). Backend would be Django or FastAPI with typed interfaces, SQL migrations, Swagger docs. Keep it clean and scalable from the beginning — no giant utils.py or views.py.
@@ -265,7 +265,7 @@ How do you build a secure auth system quickly?
 > Use industry-proven packages: dj-rest-auth or Firebase for auth. JWT or session-based tokens depending on frontend. Rate-limiting + login attempt lockout. No need to roll your own — just configure it right and test edge cases.
 
 What’s your approach to testing early-stage apps?
-> I write basic unit tests for core logic (e.g., model methods, API views), and integration tests for key flows (e.g., user signup). For juniors, I enforce “if you write a view, write a test.”. Use pytest + coverage from day 1, even if coverage is just 40-50% initially.
+> I write basic unit tests for core logic (e.g., model methods, API views), and integration tests for key flows (e.g., user signup). For juniors, I enforce if you write a view, write a test.. Use pytest + coverage from day 1, even if coverage is just 40-50% initially.
 
 How do you design a database when features aren’t 100% clear yet?
 > I start with flexible models: Nullable fields. JSON fields (for future-proofing certain data). Avoid hard foreign keys until absolutely needed. I document assumptions and treat models as iterative — evolve them with usage.
@@ -274,7 +274,7 @@ How do you balance speed vs. technical debt early on?
 > I move fast — but I isolate hacks. Leave TODOs with # tech-debt tags. Document shortcuts in the README. Build with reusability in mind (not DRY too early, but modular). If we ship quick and revisit debt in scheduled cycles, we win both short- and long-term.
 
 How do you prioritize features with no PM yet?
-> I gather: User stories (from founder or early adopters). Business-critical flows (login, onboarding, checkout, etc.). I group into weekly deliverables. Use Notion or GitHub Projects to track. If founders want X, I ask: “what’s the cost if we don’t build it this week?” — then prioritize accordingly.
+> I gather: User stories (from founder or early adopters). Business-critical flows (login, onboarding, checkout, etc.). I group into weekly deliverables. Use Notion or GitHub Projects to track. If founders want X, I ask: what’s the cost if we don’t build it this week? — then prioritize accordingly.
 
 What if someone on the team consistently writes bad code or slows others down?
 > I mentor first — pair programming, feedback in reviews, async examples. If it doesn’t improve, I involve leadership and suggest giving clearer expectations or less critical tasks. The goal is to lift them up without harming team momentum.
@@ -584,7 +584,7 @@ How would you build a secure, controlled workflow system like Energent’s?
 What are the biggest challenges in building user-facing AI agents?
 > Key challenges include ensuring reliability and accuracy of AI outputs in diverse real-world scenarios, designing intuitive interfaces that balance automation with user control, handling latency to maintain responsiveness, and managing user trust by making AI behavior transparent and explainable while safeguarding data privacy.
 
-How would you implement “real-time visibility and control” in an AI workflow tool?
+How would you implement real-time visibility and control in an AI workflow tool?
 > I’d stream workflow state updates and logs via WebSockets or server-sent events to frontend dashboards, allowing users to monitor progress live. For control, I’d provide interactive APIs to pause, cancel, or modify running workflows, combined with role-based authorization to ensure only permitted users can take such actions, creating a responsive and secure user experience.
 
 3. Backend/Full Stack System Design
@@ -618,7 +618,7 @@ How would you serve a document parsing model to thousands of users securely and 
 What tools have you used for managing GPU/CPU-heavy inference?
 > I’ve used Kubernetes with NVIDIA device plugins for GPU scheduling, alongside model serving platforms like TorchServe and Triton Inference Server; for CPU-heavy loads, I rely on autoscaling with efficient batching and optimized libraries like ONNX Runtime; monitoring tools like Prometheus track resource usage to optimize utilization and trigger scaling.
 
-What’s your take on “privacy-first AI” products?
+What’s your take on privacy-first AI products?
 > Privacy-first AI is essential, especially as regulations tighten and user trust becomes a competitive advantage; it means designing systems with data minimization, on-device processing where possible, encryption, and transparent data use policies; balancing privacy with model accuracy requires innovation in techniques like federated learning and differential privacy to maintain utility without compromising user data.
 
 5. DevOps & Deployment (Cloud/VMs)
@@ -655,7 +655,7 @@ Why do you want to join a startup instead of a big tech company?
 > I’m drawn to startups because they offer a unique chance to own impactful projects end-to-end, move quickly without bureaucracy, and directly shape the product and company culture. I thrive in environments where creativity, rapid learning, and wearing multiple hats are valued over rigid roles, which aligns with my passion for building real solutions that can scale fast and adapt.
 
 How do you work with remote teammates across time zones?
-> I prioritize clear and asynchronous communication using tools like Slack and shared documentation, setting overlapping “core hours” when possible for live collaboration. I respect different work rhythms by writing detailed updates and questions to avoid bottlenecks and rely on proactive coordination and empathy to maintain team cohesion and momentum despite geographic distance.
+> I prioritize clear and asynchronous communication using tools like Slack and shared documentation, setting overlapping core hours when possible for live collaboration. I respect different work rhythms by writing detailed updates and questions to avoid bottlenecks and rely on proactive coordination and empathy to maintain team cohesion and momentum despite geographic distance.
 
 Have you contributed to open source? (They found you through GitHub)
 > Yes, I actively contribute to open source projects on GitHub, including maintaining forks, submitting pull requests, and sharing utilities that solve common problems. Open source collaboration has sharpened my coding standards, code review skills, and ability to work transparently with distributed teams, which I bring into professional settings as well.

@@ -23,7 +23,7 @@ Several methodologies and frameworks exist under the Agile umbrella, all adherin
 
 ### **Kanban**
 
-- **Focus on Flow**: Kanban emphasizes visualizing work items and controlling work in progress (WIP). It uses a **Kanban board** where tasks move from “To Do” to “In Progress” to “Done.”
+- **Focus on Flow**: Kanban emphasizes visualizing work items and controlling work in progress (WIP). It uses a **Kanban board** where tasks move from To Do to In Progress to Done.
 - **WIP Limits**: Teams limit the number of work items allowed in each stage of development to optimize flow.
 - **Continuous Delivery**: Unlike Scrum’s fixed sprints, Kanban teams deliver work as soon as it’s ready, leading to continuous delivery.
 
